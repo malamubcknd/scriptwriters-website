@@ -60,9 +60,9 @@ CSS INDEX
   --ul-gray2: #D2D2D1;
   --ul-gray3: #F4F4F4;
   --ul-gradient: linear-gradient(90deg, var(--ul-primary) 0%, var(--ul-secondary) 100%);
-  --font-primary: "Manrope", serif;
-  --font-quicksand: "Quicksand", serif;
-  --font-caveat: "Caveat", serif;
+  --font-primary: "centra","helvetica-neue","helvetica",sans-serif;  /*"Manrope", serif;*/
+  --font-quicksand: "centra","helvetica-neue","helvetica",sans-serif;/* "Quicksand", serif; */
+  --font-caveat: "centra","helvetica-neue","helvetica",sans-serif; /*"Caveat", serif;*/
 }
 
 html {
@@ -72,7 +72,7 @@ html {
 body {
   font-family: var(--font-primary);
   margin: auto;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   position: fixed;
 }
 
@@ -301,7 +301,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 20px;
   position: relative;
 }
 .ul-radio label .checkmark i {
@@ -342,7 +342,7 @@ button {
   padding: 0 clamp(6px, 0.47vw, 9px);
   padding-right: clamp(12px, 0.89vw, 17px);
   font-weight: 800;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   position: relative;
   color: var(--white);
 }
@@ -366,7 +366,7 @@ button {
   justify-content: center;
   border-radius: 999px;
   transition: all 0.3s ease;
-  font-size: clamp(10px, 0.68vw, 13px);
+  font-size: clamp(17px, 0.68vw, 20px);
 }
 .ul-btn--2 {
   color: var(--ul-primary);
@@ -432,7 +432,7 @@ button {
   font-family: var(--font-quicksand);
 }
 .ul-section-descr {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   margin-bottom: 0;
   color: var(--ul-p);
 }
@@ -461,7 +461,7 @@ button {
 .ul-breadcrumb-title {
   font-weight: 900;
   font-family: var(--font-quicksand);
-  font-size: clamp(30px, 4.2vw, 80px);
+  font-size: clamp(40px, 4.2vw, 90px);
   color: var(--white);
   line-height: 1.3;
   margin-bottom: clamp(6px, 0.47vw, 9px);
@@ -470,7 +470,7 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 500;
   gap: 3px;
   color: var(--white);
@@ -489,7 +489,7 @@ button {
 }
 .ul-breadcrumb .separator {
   display: inline-flex;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
 }
 
 .ul-sidebar {
@@ -531,7 +531,7 @@ button {
   justify-content: center;
   border-radius: 50%;
   font-weight: 600;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-black);
   line-height: 0.7;
   border: 1px solid rgba(67, 67, 67, 0.5);
@@ -587,12 +587,12 @@ button {
 .ul-single-accordion-item__header i {
   transition: transform 0.4s ease;
   display: inline-flex;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
 }
 .ul-single-accordion-item__title {
   margin-bottom: 0;
   font-weight: 600;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
 }
 .ul-single-accordion-item__body {
   transition: all 0.4s ease;
@@ -600,7 +600,7 @@ button {
 }
 .ul-single-accordion-item__body p {
   line-height: 1.5;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-gray);
   margin-bottom: 0;
   font-weight: 400;
@@ -678,7 +678,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   visibility: visible;
 }
 .ul-slider-nav button:hover {
@@ -698,7 +698,7 @@ button {
 .ul-slider-action-wrapper button {
   color: var(--white);
   text-transform: uppercase;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-slider-action-wrapper button:hover {
   color: var(--ul-primary);
@@ -779,7 +779,7 @@ button {
   height: clamp(48px, 3.15vw, 60px);
   max-width: clamp(534px, 32.53vw, 619px);
   width: 100%;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   width: 95%;
 }
 .ul-search-form-right {
@@ -803,7 +803,7 @@ button {
   padding-top: clamp(0px, 0.42vw, 8px);
   height: 100%;
   flex-shrink: 0;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   color: var(--white);
 }
 .ul-search-form-right button .icon {
@@ -921,7 +921,7 @@ button {
   display: inline-block;
 }
 .ul-sidebar-about .descr {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-sidebar-slider-wrapper {
   display: flex;
@@ -942,7 +942,7 @@ button {
 .ul-sidebar-footer-title {
   color: var(--black);
   font-weight: 600;
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   margin-bottom: clamp(7px, 0.53vw, 10px);
   display: inline-block;
 }
@@ -1129,7 +1129,7 @@ button {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
 }
 @media screen and (max-width: 991px) {
   .ul-header-nav .has-sub-menu > a::after {
@@ -1307,7 +1307,7 @@ button {
 .ul-header-megamenu .single-col-title {
   color: var(--ul-primary);
   font-weight: 500;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   display: inline-block;
   text-transform: uppercase;
 }
@@ -1485,7 +1485,7 @@ button {
 }
 .ul-banner-title {
   font-weight: 700;
-  font-size: clamp(30px, 4.2vw, 80px);
+  font-size: clamp(40px, 4.2vw, 90px);
   font-family: var(--font-quicksand);
   line-height: 100%;
   letter-spacing: -0.02em;
@@ -1493,7 +1493,7 @@ button {
   margin-left: -5px;
 }
 .ul-banner-descr {
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   font-weight: 500;
   margin-bottom: clamp(21px, 2.15vw, 41px);
 }
@@ -1814,7 +1814,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
 }
 .ul-about-call .call-title {
   font-weight: 400;
@@ -1906,7 +1906,7 @@ button {
   justify-content: center;
 }
 .ul-about-2-bottom-block-title {
-  font-size: clamp(19px, 1.16vw, 22px);
+  font-size: clamp(26px, 1.16vw, 29px);
   font-weight: 700;
   color: var(--ul-black);
   margin-bottom: clamp(3px, 0.32vw, 6px);
@@ -2025,7 +2025,7 @@ button {
 .ul-donation-title {
   font-weight: 700;
   font-family: var(--font-quicksand);
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   margin: clamp(0px, 0.21vw, 4px);
 }
 .ul-donation-descr {
@@ -2036,7 +2036,7 @@ button {
   border-radius: clamp(12px, 1.05vw, 20px) clamp(12px, 1.05vw, 20px) 0 0;
   color: var(--white);
   font-weight: 700;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   display: inline-flex;
   gap: clamp(9px, 0.63vw, 12px);
   align-items: center;
@@ -2395,7 +2395,7 @@ button {
 .ul-event-title {
   font-weight: 700;
   font-family: var(--font-quicksand);
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   margin-bottom: clamp(10px, 0.89vw, 17px);
 }
 .ul-event-descr {
@@ -2520,13 +2520,20 @@ button {
   color: var(--white);
 }
 .ul-team-member-img {
+  width: 285px;          /* Set size */
+  height: 285px;         /* Must match width */
+  border-radius: 50%;
+  overflow: hidden;      /* Clips image into circle */
   position: relative;
   z-index: 1;
 }
+
 .ul-team-member-img img {
   width: 100%;
-  aspect-ratio: 308/320;
+  height: 100%;
+  object-fit: cover;
 }
+
 .ul-team-member-img::before {
   content: "";
   position: absolute;
@@ -2567,7 +2574,7 @@ button {
 }
 .ul-team-member-name {
   margin-bottom: 0;
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   font-weight: 600;
   font-family: var(--font-quicksand);
 }
@@ -2661,7 +2668,7 @@ button {
 .ul-reviews-heading-descr {
   margin-bottom: 0;
   font-weight: 400;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   letter-spacing: -0.03em;
   color: #4F536C;
   margin-top: clamp(8px, 0.63vw, 12px);
@@ -2683,7 +2690,7 @@ button {
 }
 .ul-review-descr {
   font-weight: 400;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   line-height: 167%;
   color: var(--ul-p);
   margin-bottom: clamp(16px, 1.63vw, 31px);
@@ -2707,14 +2714,14 @@ button {
 }
 .ul-review-reviewer .reviewer-name {
   font-weight: 700;
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   color: var(--ul-black);
   margin-bottom: clamp(1px, 0.21vw, 4px);
   padding-top: 3px;
 }
 .ul-review-reviewer .reviewer-role {
   display: block;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-p);
 }
 .ul-review-icon {
@@ -2820,7 +2827,7 @@ button {
   transform: scaleX(-1) scaleY(-1);
 }
 .ul-review-2 .ul-review-descr {
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   font-style: italic;
   font-weight: 600;
   line-height: 1.5;
@@ -2931,7 +2938,7 @@ button {
 .ul-blog .date .number {
   display: block;
   font-weight: 700;
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   line-height: 0.8;
   margin-bottom: clamp(3px, 0.32vw, 6px);
 }
@@ -2951,7 +2958,7 @@ button {
 .ul-blog-infos {
   display: flex;
   align-items: center;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 400;
   margin-bottom: clamp(8px, 0.53vw, 10px);
   color: var(--ul-gray);
@@ -2972,12 +2979,12 @@ button {
   justify-content: flex-end;
 }
 .ul-blog-info i {
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   color: var(--ul-primary);
 }
 .ul-blog-title {
   font-weight: 700;
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   line-height: 1.2;
   font-family: var(--font-quicksand);
   border-bottom: 1px solid rgba(67, 67, 67, 0.25);
@@ -2998,7 +3005,7 @@ button {
   color: var(--ul-primary);
 }
 .ul-blog-btn {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 700;
   color: var(--ul-primary);
   display: inline-flex;
@@ -3246,7 +3253,7 @@ button {
   margin-bottom: clamp(3px, 0.32vw, 6px);
 }
 .ul-footer-top-contact-info-address {
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   font-weight: 700;
 }
 .ul-footer-middle {
@@ -3285,14 +3292,14 @@ button {
   max-width: clamp(130px, 9.46vw, 180px);
 }
 .ul-footer-about-txt {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-gray2);
 }
 .ul-footer-socials {
   display: flex;
   align-items: center;
   gap: clamp(6px, 0.47vw, 9px);
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
 }
 .ul-footer-socials a {
   color: rgba(255, 255, 255, 0.8);
@@ -3321,7 +3328,7 @@ button {
 }
 .ul-footer-widget-title {
   font-weight: 700;
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   color: var(--white);
   margin-bottom: clamp(13px, 1.37vw, 26px);
   padding-bottom: clamp(8px, 0.68vw, 13px);
@@ -3350,7 +3357,7 @@ button {
   display: inline-flex;
   align-items: center;
   color: var(--ul-gray2);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   position: relative;
 }
 .ul-footer-widget-links > *::before {
@@ -3370,7 +3377,7 @@ button {
 }
 .ul-footer-post {
   display: flex;
-  gap: clamp(13px, 0.84vw, 16px);
+  gap: clamp(20px, 0.84vw, 23px);
   margin-bottom: 0;
   border-bottom: none;
   padding-bottom: 0;
@@ -3389,7 +3396,7 @@ button {
 .ul-footer-post .title a {
   color: var(--white);
   font-family: var(--font-quicksand);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 600;
 }
 .ul-footer-post .title a:hover {
@@ -3405,7 +3412,7 @@ button {
 }
 .ul-footer-post .date .icon {
   color: var(--white);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-footer-contact-links a {
   color: var(--white);
@@ -3430,7 +3437,7 @@ button {
 .ul-footer .ul-nwsltr-form .top input {
   border: none;
   padding: 0 clamp(7px, 0.53vw, 10px);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   width: 100%;
 }
 .ul-footer .ul-nwsltr-form .top button {
@@ -3447,7 +3454,7 @@ button {
   background-color: var(--ul-primary);
 }
 .ul-footer .ul-nwsltr-form .agreement {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: rgba(255, 255, 255, 0.6);
   margin-top: clamp(12px, 1.26vw, 24px);
 }
@@ -3471,7 +3478,7 @@ button {
 }
 .ul-footer-bottom .copyright-txt {
   margin-bottom: 0;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: rgba(255, 255, 255, 0.9);
 }
 .ul-footer-bottom .copyright-txt a {
@@ -3482,7 +3489,7 @@ button {
 }
 .ul-footer-bottom a {
   color: rgba(255, 255, 255, 0.9);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-footer-bottom a:hover {
   color: var(--ul-black);
@@ -3518,7 +3525,7 @@ button {
   fill: var(--ul-primary);
 }
 .ul-feature-title {
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   font-weight: 700;
   color: var(--ul-black);
   margin-bottom: 0;
@@ -3615,7 +3622,7 @@ button {
 }
 
 .ul-services {
-  background: url(../img/service-bg.png) #F5F0E2 no-repeat center center/cover;
+  background: url(../img/service-bg.png) #fff no-repeat center center/cover;
 }
 .ul-services-slider-nav {
   transform: none;
@@ -3663,15 +3670,20 @@ button {
   transition: 0.4s ease;
 }
 .ul-service-img {
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: clamp(16px, 1.26vw, 24px);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;     /* Clips image into circle */
 }
+
 .ul-service-img img {
-  aspect-ratio: 390/253;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 .ul-service-title {
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   font-weight: 700;
   letter-spacing: -1px;
   font-family: var(--font-quicksand);
@@ -3880,7 +3892,7 @@ button {
   padding: 0;
   flex-grow: 1;
   text-align: center;
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   font-weight: 900;
   font-family: var(--font-quicksand);
   padding-bottom: clamp(12px, 1.68vw, 32px);
@@ -3950,7 +3962,7 @@ button {
   object-fit: cover;
 }
 .ul-about-tab-txt > * {
-  margin-bottom: clamp(13px, 0.84vw, 16px);
+  margin-bottom: clamp(20px, 0.84vw, 23px);
 }
 .ul-about-tab-txt > *:last-child {
   margin-bottom: 0;
@@ -3958,19 +3970,19 @@ button {
 .ul-about-tab-title,
 .ul-about-tab h3 {
   font-family: var(--font-quicksand);
-  font-size: clamp(20px, 1.26vw, 24px);
+  font-size: clamp(27px, 1.26vw, 31px);
   font-weight: 700;
 }
 .ul-about-tab-descr,
 .ul-about-tab p {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 400;
   color: var(--ul-p);
 }
 .ul-about-tab-list li,
 .ul-about-tab ul li {
   font-weight: 500;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-black);
   display: flex;
   align-items: center;
@@ -4002,7 +4014,7 @@ button {
 }
 .ul-inner-sidebar-widget-title {
   font-family: var(--font-quicksand);
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   color: var(--black);
   font-weight: 700;
   position: relative;
@@ -4037,7 +4049,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   color: var(--ul-gray);
   margin-bottom: clamp(8px, 0.84vw, 16px);
 }
@@ -4073,7 +4085,7 @@ button {
   object-fit: cover;
 }
 .ul-inner-sidebar-post .date {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-gray);
   display: flex;
   align-items: center;
@@ -4087,7 +4099,7 @@ button {
 .ul-inner-sidebar-post .title a {
   font-weight: 600;
   font-family: var(--font-quicksand);
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   line-height: 1.4;
   margin-bottom: 0;
   color: var(--black);
@@ -4109,7 +4121,7 @@ button {
   justify-content: center;
   border-radius: 999px;
   color: var(--black);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-inner-sidebar-tags a:hover {
   background-color: var(--ul-primary);
@@ -4139,7 +4151,7 @@ button {
 }
 .ul-service-details-descr,
 .ul-service-details p {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   color: var(--ul-p);
 }
 .ul-service-details-inner-block {
@@ -4158,7 +4170,7 @@ button {
 .ul-service-details ul li {
   margin-bottom: clamp(10px, 1.05vw, 20px);
   font-weight: 500;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   display: flex;
   align-items: baseline;
   gap: clamp(7px, 0.53vw, 10px);
@@ -4230,7 +4242,7 @@ button {
 .ul-donation-details-raised .target {
   color: var(--ul-gray);
   font-weight: 500;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
 }
 .ul-donation-details .ul-donation-progress {
   border-bottom: none;
@@ -4243,7 +4255,7 @@ button {
   border-radius: 999px;
   display: flex;
   align-items: center;
-  gap: clamp(13px, 0.84vw, 16px);
+  gap: clamp(20px, 0.84vw, 23px);
 }
 .ul-donation-details-notice p {
   margin-bottom: 0;
@@ -4360,7 +4372,7 @@ button {
 }
 .ul-donation-details-summary-txt p {
   color: var(--ul-p);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 .ul-donation-details-summary-txt ul {
   display: grid;
@@ -4375,7 +4387,7 @@ button {
 }
 .ul-donation-details-summary-txt ul li {
   font-weight: 500;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   display: flex;
   align-items: baseline;
   gap: clamp(7px, 0.53vw, 10px);
@@ -4396,7 +4408,7 @@ button {
 .ul-donation-details-summary-txt blockquote {
   background-color: var(--ul-gray3);
   margin: clamp(18px, 1.84vw, 35px) 0;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   padding: clamp(18px, 1.84vw, 35px);
   border-radius: 10px;
   display: flex;
@@ -4440,7 +4452,7 @@ button {
   display: flex;
   align-items: center;
   gap: clamp(15px, 1.58vw, 30px);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 500;
   color: var(--ul-gray);
   margin-bottom: clamp(6px, 0.47vw, 9px);
@@ -4452,7 +4464,7 @@ button {
   line-height: 1;
 }
 .ul-event-details-info i {
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   color: var(--ul-primary);
 }
 .ul-event-details-title,
@@ -4475,14 +4487,14 @@ button {
 }
 .ul-event-details-descr,
 .ul-event-details p {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   line-height: 167%;
   color: var(--ul-p);
   margin-bottom: clamp(8px, 0.79vw, 15px);
 }
 .ul-event-details-list li,
 .ul-event-details ul li {
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   color: var(--ul-black);
   font-weight: 500;
   display: flex;
@@ -4607,7 +4619,7 @@ button {
   color: var(--white);
   align-items: center;
   justify-content: center;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   transition: 0.4s ease;
 }
 .ul-project-details-nav button:last-child,
@@ -4630,7 +4642,7 @@ button {
   gap: 10px;
 }
 .ul-blog-details-actions .actions-title {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 600;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -4707,13 +4719,13 @@ button {
 }
 .ul-blog-details-review-txt .reviewer-name {
   font-weight: 700;
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   line-height: 110%;
   color: var(--ul-black);
   font-family: var(--font-quicksand);
 }
 .ul-blog-details-review-txt .review-date {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 400;
   margin-bottom: 0;
   color: var(--ul-gray);
@@ -4725,7 +4737,7 @@ button {
 }
 .ul-blog-details-review-reply-btn {
   font-weight: 700;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -4769,7 +4781,7 @@ button {
 }
 .ul-contact-info .title {
   display: block;
-  font-size: clamp(15px, 0.95vw, 18px);
+  font-size: clamp(22px, 0.95vw, 25px);
   color: var(--ul-gray);
   margin-bottom: 4px;
 }
@@ -4777,7 +4789,7 @@ button {
 .ul-contact-info .descr {
   font-family: var(--font-quicksand);
   font-weight: 700;
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
 }
 .ul-contact-info a:hover {
   color: var(--ul-primary);
@@ -4807,7 +4819,7 @@ button {
 }
 .ul-404 p {
   margin-top: clamp(8px, 0.63vw, 12px);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   margin-bottom: clamp(16px, 1.37vw, 26px);
 }
 .ul-404 .ul-btn {
@@ -4847,7 +4859,7 @@ button {
   margin-bottom: clamp(15px, 1.52vw, 29px);
 }
 .ul-team-details-descr {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   line-height: 1.5;
   color: var(--ul-gray);
   margin-bottom: clamp(15px, 0.95vw, 18px);
@@ -4860,7 +4872,7 @@ button {
 }
 .ul-team-details-info,
 .ul-team-details-info a {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   font-weight: 600;
   color: var(--ul-black);
   display: flex;
@@ -4878,7 +4890,7 @@ button {
 }
 .ul-team-details-socials a {
   color: var(--ul-black);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   background-color: var(--ul-gray3);
   width: clamp(36px, 2.31vw, 44px);
   aspect-ratio: 1/1;
@@ -4919,7 +4931,7 @@ button {
 .ul-team-details-experience .ul-progress-label {
   font-weight: 700;
   color: var(--ul-black);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
 }
 
 .ul-pricing-packages {
@@ -4948,13 +4960,13 @@ button {
   top: clamp(-14px, -0.74vw, -11px);
   right: clamp(20px, 1.37vw, 26px);
   background-color: var(--ul-secondary);
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   border-radius: 5px;
   padding: clamp(1.5px, 0.24vw, 4.5px) clamp(8px, 0.58vw, 11px);
 }
 .ul-pricing-package-name {
   font-weight: 700;
-  font-size: clamp(18px, 1.26vw, 24px);
+  font-size: clamp(25px, 1.26vw, 31px);
   font-family: var(--font-quicksand);
   margin-bottom: clamp(10px, 0.95vw, 18px);
   display: inline-block;
@@ -4971,7 +4983,7 @@ button {
   font-family: var(--font-quicksand);
 }
 .ul-pricing-package-duration {
-  font-size: clamp(17px, 1.05vw, 20px);
+  font-size: clamp(24px, 1.05vw, 27px);
   display: block;
   font-weight: 500;
 }
@@ -4979,7 +4991,7 @@ button {
   line-height: 1.2;
 }
 .ul-pricing-package-descr {
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(20px, 0.84vw, 23px);
   line-height: 167%;
   color: var(--ul-p);
   margin-bottom: 0;
