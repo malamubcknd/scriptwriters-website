@@ -61,7 +61,7 @@ CSS INDEX
   --ul-gray3: #F4F4F4;
   --ul-gradient: linear-gradient(90deg, var(--ul-primary) 0%, var(--ul-secondary) 100%);
   --font-primary: "centra","helvetica-neue","helvetica",sans-serif;  /*"Manrope", serif;*/
-  --font-quicksand: "centra","helvetica-neue","helvetica",sans-serif;/* "Quicksand", serif; */
+  --font-quicksand: "Times New Roman", Times, serif; /*"centra","helvetica-neue","helvetica",sans-serif;/* "Quicksand", serif; */
   --font-caveat: "centra","helvetica-neue","helvetica",sans-serif; /*"Caveat", serif;*/
 }
 
@@ -3155,7 +3155,7 @@ button {
   font-size: clamp(35px, 4.2vw, 80px);
   color: var(--white);
   font-weight: 700;
-  font-family: var(--font-quicksand);
+  font-family: "Times New Roman", Times, serif; /* var(--font-quicksand); */
   margin-bottom: clamp(16px, 1.73vw, 33px);
 }
 @media screen and (max-width: 767px) {
